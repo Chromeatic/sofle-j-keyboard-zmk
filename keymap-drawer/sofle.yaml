@@ -386,7 +386,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - UTILITY
   - Numpad
+  - UTILITY
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
