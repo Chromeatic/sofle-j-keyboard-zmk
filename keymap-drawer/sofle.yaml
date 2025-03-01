@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - Numpad
+  - NUMPAD
   - UTILITY
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
@@ -177,9 +177,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: PRIMARY, h: toggle}
-  - {t: GAMEPAD, h: toggle}
-  - {t: COLEMAK, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -195,7 +195,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Numpad:
+  NUMPAD:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -321,8 +321,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
+  - NUMPAD
   - UTILITY
-  - Numpad
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
   COLEMAK:
@@ -386,7 +386,12 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - Numpad
+  - NUMPAD
   - UTILITY
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
+combos:
+- p: [60, 61, 62]
+  k: {t: COLEMAK, h: toggle}
+- p: [60, 61]
+  k: {t: GAMEPAD, h: toggle}

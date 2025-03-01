@@ -614,8 +614,8 @@ rect.held, rect.combo.held {
 <g transform="translate(610, 283) rotate(-30.0)" class="key keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Numpad">
-<text x="0" y="-4" class="key tap layer-activator">Numpad</text>
+<a href="#NUMPAD">
+<text x="0" y="-4" class="key tap layer-activator">NUMPAD</text>
 </a></g>
 <g transform="translate(672, 259)" class="key keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -632,6 +632,20 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
+</g>
+<g class="combo combopos-0">
+<path d="M670,265 l-42,13" class="combo"/>
+<path d="M670,265 l40,-9" class="combo"/>
+<rect rx="6" ry="6" x="656" y="252" width="28" height="26" class="combo"/>
+<a href="#COLEMAK">
+<text x="670" y="265" class="combo tap layer-activator"><tspan style="font-size: 86%">COLEMAK</tspan></text>
+</a><text x="670" y="276" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
+<a href="#GAMEPAD">
+<text x="641" y="271" class="combo tap layer-activator"><tspan style="font-size: 86%">GAMEPAD</tspan></text>
+</a><text x="641" y="282" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -989,6 +1003,20 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<path d="M670,265 l-42,13" class="combo"/>
+<path d="M670,265 l40,-9" class="combo"/>
+<rect rx="6" ry="6" x="656" y="252" width="28" height="26" class="combo"/>
+<a href="#COLEMAK">
+<text x="670" y="265" class="combo tap layer-activator"><tspan style="font-size: 86%">COLEMAK</tspan></text>
+</a><text x="670" y="276" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
+<a href="#GAMEPAD">
+<text x="641" y="271" class="combo tap layer-activator"><tspan style="font-size: 86%">GAMEPAD</tspan></text>
+</a><text x="641" y="282" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-UTILITY">
@@ -1239,26 +1267,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:menu-right" xlink:href="#mdi:menu-right" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:menu-right"/>
 <use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:mouse"/>
 </g>
-<g transform="translate(616, 203)" class="key keypos-46">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#PRIMARY">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">PRIMARY</tspan></text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<g transform="translate(616, 203)" class="key trans keypos-46">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(672, 203)" class="key keypos-47">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#GAMEPAD">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">GAMEPAD</tspan></text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<g transform="translate(672, 203)" class="key trans keypos-47">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(728, 196)" class="key keypos-48">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEMAK">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">COLEMAK</tspan></text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<g transform="translate(728, 196)" class="key trans keypos-48">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(784, 203)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1334,10 +1356,24 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<path d="M670,265 l-42,13" class="combo"/>
+<path d="M670,265 l40,-9" class="combo"/>
+<rect rx="6" ry="6" x="656" y="252" width="28" height="26" class="combo"/>
+<a href="#COLEMAK">
+<text x="670" y="265" class="combo tap layer-activator"><tspan style="font-size: 86%">COLEMAK</tspan></text>
+</a><text x="670" y="276" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
+<a href="#GAMEPAD">
+<text x="641" y="271" class="combo tap layer-activator"><tspan style="font-size: 86%">GAMEPAD</tspan></text>
+</a><text x="641" y="282" class="combo hold">toggle</text>
 </g>
 </g>
-<g transform="translate(40, 1165)" class="layer-Numpad">
-<text x="0" y="28" class="label" id="Numpad">Numpad:</text>
+</g>
+<g transform="translate(40, 1165)" class="layer-NUMPAD">
+<text x="0" y="28" class="label" id="NUMPAD">NUMPAD:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1674,6 +1710,20 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key enter tap glyph mdi:keyboard-return"/>
 </g>
+<g class="combo combopos-0">
+<path d="M670,265 l-42,13" class="combo"/>
+<path d="M670,265 l40,-9" class="combo"/>
+<rect rx="6" ry="6" x="656" y="252" width="28" height="26" class="combo"/>
+<a href="#COLEMAK">
+<text x="670" y="265" class="combo tap layer-activator"><tspan style="font-size: 86%">COLEMAK</tspan></text>
+</a><text x="670" y="276" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
+<a href="#GAMEPAD">
+<text x="641" y="271" class="combo tap layer-activator"><tspan style="font-size: 86%">GAMEPAD</tspan></text>
+</a><text x="641" y="282" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-GAMEPAD">
@@ -1998,14 +2048,14 @@ rect.held, rect.combo.held {
 <g transform="translate(610, 283) rotate(-30.0)" class="key keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#UTILITY">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">UTILITY</tspan></text>
+<a href="#NUMPAD">
+<text x="0" y="-4" class="key tap layer-activator">NUMPAD</text>
 </a></g>
 <g transform="translate(672, 259)" class="key keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Numpad">
-<text x="0" y="-4" class="key tap layer-activator">Numpad</text>
+<a href="#UTILITY">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">UTILITY</tspan></text>
 </a></g>
 <g transform="translate(728, 252)" class="key keypos-62">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2016,6 +2066,20 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
+</g>
+<g class="combo combopos-0">
+<path d="M670,265 l-42,13" class="combo"/>
+<path d="M670,265 l40,-9" class="combo"/>
+<rect rx="6" ry="6" x="656" y="252" width="28" height="26" class="combo"/>
+<a href="#COLEMAK">
+<text x="670" y="265" class="combo tap layer-activator"><tspan style="font-size: 86%">COLEMAK</tspan></text>
+</a><text x="670" y="276" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
+<a href="#GAMEPAD">
+<text x="641" y="271" class="combo tap layer-activator"><tspan style="font-size: 86%">GAMEPAD</tspan></text>
+</a><text x="641" y="282" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2340,8 +2404,8 @@ rect.held, rect.combo.held {
 <g transform="translate(610, 283) rotate(-30.0)" class="key keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Numpad">
-<text x="0" y="-4" class="key tap layer-activator">Numpad</text>
+<a href="#NUMPAD">
+<text x="0" y="-4" class="key tap layer-activator">NUMPAD</text>
 </a></g>
 <g transform="translate(672, 259)" class="key keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2358,6 +2422,20 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
+</g>
+<g class="combo combopos-0">
+<path d="M670,265 l-42,13" class="combo"/>
+<path d="M670,265 l40,-9" class="combo"/>
+<rect rx="6" ry="6" x="656" y="252" width="28" height="26" class="combo"/>
+<a href="#COLEMAK">
+<text x="670" y="265" class="combo tap layer-activator"><tspan style="font-size: 86%">COLEMAK</tspan></text>
+</a><text x="670" y="276" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
+<a href="#GAMEPAD">
+<text x="641" y="271" class="combo tap layer-activator"><tspan style="font-size: 86%">GAMEPAD</tspan></text>
+</a><text x="641" y="282" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
