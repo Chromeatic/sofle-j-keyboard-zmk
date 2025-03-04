@@ -395,3 +395,5 @@ combos:
   k: {t: COLEMAK, h: toggle}
 - p: [60, 61]
   k: {t: GAMEPAD, h: toggle}
+- p: [28, 29, 30]
+  k: {t: '$$mdi:backspace$$', type: backspace}
